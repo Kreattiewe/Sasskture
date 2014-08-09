@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby 
+require 'Sasskture'
+
+app = Sasskture::GenerateStructure.new
+app.generateData
+app.generateMain
